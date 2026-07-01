@@ -16,12 +16,13 @@ export default function Navbar() {
           </Link>
           
           <div className="hidden md:flex space-x-8">
-            <Link href="/" className="text-sm font-semibold transition-colors hover:opacity-70" style={{ color: "#2D1810" }}>Home</Link>
-            <Link href="/about" className="text-sm font-semibold transition-colors hover:opacity-70" style={{ color: "#2D1810" }}>About</Link>
-            <Link href="/services" className="text-sm font-semibold transition-colors hover:opacity-70" style={{ color: "#2D1810" }}>Services</Link>
-            <Link href="/products" className="text-sm font-semibold transition-colors hover:opacity-70" style={{ color: "#2D1810" }}>Products</Link>
-            <Link href="/contact" className="text-sm font-semibold transition-colors hover:opacity-70" style={{ color: "#2D1810" }}>Contact</Link>
-          </div>
+  <Link href="/" className="text-sm font-semibold transition-colors hover:opacity-70" style={{ color: "#2D1810" }}>Home</Link>
+  <Link href="/about" className="text-sm font-semibold transition-colors hover:opacity-70" style={{ color: "#2D1810" }}>About</Link>
+  <Link href="/services" className="text-sm font-semibold transition-colors hover:opacity-70" style={{ color: "#2D1810" }}>Services</Link>
+  <Link href="/portfolio" className="text-sm font-semibold transition-colors hover:opacity-70" style={{ color: "#2D1810" }}>Portfolio</Link>
+  <Link href="/products" className="text-sm font-semibold transition-colors hover:opacity-70" style={{ color: "#2D1810" }}>Products</Link>
+  <Link href="/contact" className="text-sm font-semibold transition-colors hover:opacity-70" style={{ color: "#2D1810" }}>Contact</Link>
+</div>
 
           <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
             <div className="w-6 h-6 flex flex-col justify-center space-y-1">
@@ -37,6 +38,7 @@ export default function Navbar() {
             <Link href="/" className="block py-2 hover:opacity-70" style={{ color: "#2D1810" }} onClick={() => setIsOpen(false)}>Home</Link>
             <Link href="/about" className="block py-2 hover:opacity-70" style={{ color: "#2D1810" }} onClick={() => setIsOpen(false)}>About</Link>
             <Link href="/services" className="block py-2 hover:opacity-70" style={{ color: "#2D1810" }} onClick={() => setIsOpen(false)}>Services</Link>
+            <Link href="/portfolio" className="block py-2 hover:opacity-70" style={{ color: "#2D1810" }} onClick={() => setIsOpen(false)}>Portfolio</Link>
             <Link href="/products" className="block py-2 hover:opacity-70" style={{ color: "#2D1810" }} onClick={() => setIsOpen(false)}>Products</Link>
             <Link href="/contact" className="block py-2 hover:opacity-70" style={{ color: "#2D1810" }} onClick={() => setIsOpen(false)}>Contact</Link>
           </div>
