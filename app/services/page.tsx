@@ -1,5 +1,17 @@
 import Image from "next/image";
 import { Sofa, Home, Palette, Sparkles, Building2, Ruler } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Services - Furniture & Interior Design Tanzania",
+  description: "Explore our services: handmade furniture, interior design consultation, cultural home decor, custom designs, commercial projects, and space planning in Tanzania.",
+  keywords: ["interior design services Tanzania", "furniture services Dodoma", "commercial design Africa"],
+  openGraph: {
+    title: "Our Services | Mazuri Cultural Designs",
+    description: "Professional design services in Tanzania - handcrafted furniture, interior design, and more.",
+    images: ["/images/service-furniture.jpg"],
+  },
+};
 
 export default function Services() {
   const services = [

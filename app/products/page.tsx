@@ -1,5 +1,17 @@
 import Image from "next/image";
 import { MessageCircle } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Products - Handcrafted African Furniture & Decor",
+  description: "Browse our collection of authentic handcrafted African furniture, wall art, woven baskets, and home decor. Custom pieces available. Based in Dodoma, Tanzania.",
+  keywords: ["African furniture products", "handcrafted decor Tanzania", "custom furniture Dodoma"],
+  openGraph: {
+    title: "Products | Mazuri Cultural Designs",
+    description: "Authentic handcrafted African furniture and decor pieces.",
+    images: ["/images/product-1.jpg"],
+  },
+};
 
 export default function Products() {
   const products = [
