@@ -26,14 +26,14 @@ export default function Services() {
             {services.map((s, i) => {
               const Icon = s.icon;
               return (
-                <div key={i} className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 border-b-4" style={{ borderColor: "#F5C518" }}>
-                  <div className="relative h-56 overflow-hidden">
+                <div key={i} className="bg-white rounded-lg shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 border-b-4 relative" style={{ borderColor: "#F5C518" }}>
+                  <div className="relative h-56 overflow-hidden rounded-t-lg">
                     <Image src={s.image} alt={s.title} fill className="object-cover hover:scale-110 transition-transform duration-500" />
                   </div>
-                  <div className="p-6">
-                    <div className="w-14 h-14 rounded-full flex items-center justify-center mb-4 -mt-12 border-4 border-white shadow-lg" style={{ backgroundColor: "#F5C518" }}>
-                      <Icon className="w-7 h-7" style={{ color: "#3D2817" }} />
-                    </div>
+                  <div className="w-16 h-16 rounded-full flex items-center justify-center border-4 border-white shadow-lg absolute left-6" style={{ backgroundColor: "#F5C518", top: "12rem" }}>
+                    <Icon className="w-8 h-8" style={{ color: "#3D2817" }} />
+                  </div>
+                  <div className="p-6 pt-12">
                     <h3 className="text-xl font-semibold mb-3" style={{ color: "#3D2817" }}>{s.title}</h3>
                     <p className="text-gray-700">{s.desc}</p>
                   </div>

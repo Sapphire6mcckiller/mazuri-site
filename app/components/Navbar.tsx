@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center gap-3">
             <Image src="/logo.png" alt="Mazuri Cultural Designs" width={50} height={50} className="h-12 w-auto" />
-            <span className="text-lg font-bold hidden sm:inline" style={{ color: "#3D2817" }}>MAZURI</span>
+            <span className="text-lg font-bold hidden sm:inline" style={{ color: "#3D2817" }}></span>
           </Link>
           
           <div className="hidden md:flex space-x-8">

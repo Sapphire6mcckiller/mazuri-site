@@ -79,48 +79,48 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Services Preview with Images */}
+                 {/* Services Preview with Images */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-5xl font-light mb-16" style={{ color: "#3D2817" }}>Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Service 1 */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 border-b-4" style={{ borderColor: "#F5C518" }}>
-              <div className="relative h-56 overflow-hidden">
+            <div className="bg-white rounded-lg shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 border-b-4 relative" style={{ borderColor: "#F5C518" }}>
+              <div className="relative h-56 overflow-hidden rounded-t-lg">
                 <Image src="/images/service-furniture.jpg" alt="Handmade Furniture" fill className="object-cover hover:scale-110 transition-transform duration-500" />
               </div>
-              <div className="p-6">
-                <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4 -mt-12 border-4 border-white shadow-lg" style={{ backgroundColor: "#F5C518" }}>
-                  <Sofa className="w-7 h-7" style={{ color: "#3D2817" }} />
-                </div>
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto border-4 border-white shadow-lg absolute left-1/2 -translate-x-1/2" style={{ backgroundColor: "#F5C518", top: "12rem" }}>
+                <Sofa className="w-8 h-8" style={{ color: "#3D2817" }} />
+              </div>
+              <div className="p-6 pt-12">
                 <h3 className="text-xl font-semibold mb-3" style={{ color: "#3D2817" }}>Handmade Furniture</h3>
                 <p className="text-gray-700">Unique pieces blending African heritage with contemporary design.</p>
               </div>
             </div>
 
             {/* Service 2 */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 border-b-4" style={{ borderColor: "#F5C518" }}>
-              <div className="relative h-56 overflow-hidden">
+            <div className="bg-white rounded-lg shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 border-b-4 relative" style={{ borderColor: "#F5C518" }}>
+              <div className="relative h-56 overflow-hidden rounded-t-lg">
                 <Image src="/images/service-interior.jpg" alt="Interior Design" fill className="object-cover hover:scale-110 transition-transform duration-500" />
               </div>
-              <div className="p-6">
-                <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4 -mt-12 border-4 border-white shadow-lg" style={{ backgroundColor: "#F5C518" }}>
-                  <Home className="w-7 h-7" style={{ color: "#3D2817" }} />
-                </div>
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto border-4 border-white shadow-lg absolute left-1/2 -translate-x-1/2" style={{ backgroundColor: "#F5C518", top: "12rem" }}>
+                <Home className="w-8 h-8" style={{ color: "#3D2817" }} />
+              </div>
+              <div className="p-6 pt-12">
                 <h3 className="text-xl font-semibold mb-3" style={{ color: "#3D2817" }}>Interior Design</h3>
                 <p className="text-gray-700">Professional consultation that celebrates cultural authenticity.</p>
               </div>
             </div>
 
             {/* Service 3 */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 border-b-4" style={{ borderColor: "#F5C518" }}>
-              <div className="relative h-56 overflow-hidden">
+            <div className="bg-white rounded-lg shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 border-b-4 relative" style={{ borderColor: "#F5C518" }}>
+              <div className="relative h-56 overflow-hidden rounded-t-lg">
                 <Image src="/images/service-decor.jpg" alt="Cultural Home Decor" fill className="object-cover hover:scale-110 transition-transform duration-500" />
               </div>
-              <div className="p-6">
-                <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4 -mt-12 border-4 border-white shadow-lg" style={{ backgroundColor: "#F5C518" }}>
-                  <Palette className="w-7 h-7" style={{ color: "#3D2817" }} />
-                </div>
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto border-4 border-white shadow-lg absolute left-1/2 -translate-x-1/2" style={{ backgroundColor: "#F5C518", top: "12rem" }}>
+                <Palette className="w-8 h-8" style={{ color: "#3D2817" }} />
+              </div>
+              <div className="p-6 pt-12">
                 <h3 className="text-xl font-semibold mb-3" style={{ color: "#3D2817" }}>Cultural Home Decor</h3>
                 <p className="text-gray-700">Authentic accessories that tell the story of African artistry.</p>
               </div>
